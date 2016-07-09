@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".BaseActivity">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/txtFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/com_facebook_blue"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Facebook Sign In"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/txtGooglePlus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Google+ Sign In"
+                android:textColor="@android:color/white"
+                android:textSize="21sp" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/txt_Logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="Logout"
+                android:textSize="21sp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
