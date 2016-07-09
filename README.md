@@ -8,6 +8,4 @@ Social Integration
   
 # Image
 
-![alt text](https://github.com/tanujsareen/Social_Integration/blob/master/Screenshot.png)
-
-![alt text](/Screenshot.png?raw=true%20=250x)
+![alt text](/Screenshot.png?raw=true%20=100x)
